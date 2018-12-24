@@ -1,0 +1,797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RigNavComponent /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RigNavComponent
+    configHandler={[Function]}
+    createNewProject={[Function]}
+    currentProjectIndex={0}
+    deleteProject={[Function]}
+    liveConfigHandler={[Function]}
+    manifest={
+        Object {
+            "authorName": "test",
+            "bitsEnabled": true,
+            "configurationLocation": "custom",
+            "description": "test",
+            "hasChatSupport": false,
+            "iconUrls": Object {
+              "100x100": "test",
+            },
+            "id": "test",
+            "name": "test",
+            "requestIdentityLink": false,
+            "sku": "test",
+            "state": "test",
+            "summary": "test",
+            "vendorCode": "test",
+            "version": "0.0.1",
+            "views": Object {
+              "component": Object {
+                "aspectHeight": 3000,
+                "aspectWidth": 2500,
+                "canLinkExternalContent": false,
+                "size": 1024,
+                "viewerUrl": "https://test:8080",
+                "zoom": false,
+                "zoomPixels": 24,
+              },
+              "config": Object {
+                "canLinkExternalContent": false,
+                "viewerUrl": "https://test:8080",
+              },
+              "liveConfig": Object {
+                "canLinkExternalContent": false,
+                "viewerUrl": "https://test:8080",
+              },
+              "panel": Object {
+                "canLinkExternalContent": false,
+                "height": 300,
+                "viewerUrl": "https://test:8080",
+              },
+            },
+            "whitelistedConfigUrls": Array [],
+            "whitelistedPanelUrls": Array [],
+          }
+    }
+    mockApiEnabled={false}
+    openConfigurationsHandler={[Function]}
+    openProductManagementHandler={[Function]}
+    projects={Array []}
+    selectProject={[Function]}
+    session={
+        Object {
+            "authToken": "test",
+            "displayName": "test",
+            "id": "test",
+            "login": "test",
+            "profileImageUrl": "test.png",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="personal-bar"
+>
+          <ProjectDropdown
+                    createNewProject={[Function]}
+                    currentProjectIndex={0}
+                    projects={Array []}
+                    selectProject={[Function]}
+          />
+          <div
+                    className="personal-bar__ext-name"
+          >
+                    <span>
+                              test
+                    </span>
+                    <button
+                              className="personal-bar__button"
+                              onClick={[Function]}
+                    >
+                              Delete
+                    </button>
+          </div>
+          <div
+                    className="top-nav-item__login"
+          >
+                    <Connect(UserDropdownComponent)
+                              session={
+                                        Object {
+                                                  "authToken": "test",
+                                                  "displayName": "test",
+                                                  "id": "test",
+                                                  "login": "test",
+                                                  "profileImageUrl": "test.png",
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+        <div
+          className="top-nav__item-container"
+>
+          <NavLink
+                    activeClassName="top-nav-item__selected"
+                    aria-current="page"
+                    className="offset top-nav-item"
+                    exact={true}
+                    to="/"
+          >
+                    Project Overview
+          </NavLink>
+          <NavLink
+                    activeClassName="top-nav-item__selected"
+                    aria-current="page"
+                    className="offset top-nav-item"
+                    exact={true}
+                    to="/extension-views"
+          >
+                    Extension Views
+          </NavLink>
+          <NavLink
+                    activeClassName="top-nav-item__selected"
+                    aria-current="page"
+                    className="offset top-nav-item"
+                    exact={true}
+                    to="/product-management"
+          >
+                    Manage Bits Products
+          </NavLink>
+          <NavLink
+                    activeClassName="top-nav-item__selected"
+                    aria-current="page"
+                    className="offset top-nav-item top-nav-item__disabled"
+                    exact={true}
+                    to="/configuration-service"
+          >
+                    Configuration Service
+          </NavLink>
+</div>,
+      ],
+      "className": "top-nav",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ProjectDropdown
+              createNewProject={[Function]}
+              currentProjectIndex={0}
+              projects={Array []}
+              selectProject={[Function]}
+/>,
+            <div
+              className="personal-bar__ext-name"
+>
+              <span>
+                            test
+              </span>
+              <button
+                            className="personal-bar__button"
+                            onClick={[Function]}
+              >
+                            Delete
+              </button>
+</div>,
+            <div
+              className="top-nav-item__login"
+>
+              <Connect(UserDropdownComponent)
+                            session={
+                                          Object {
+                                                        "authToken": "test",
+                                                        "displayName": "test",
+                                                        "id": "test",
+                                                        "login": "test",
+                                                        "profileImageUrl": "test.png",
+                                                      }
+                            }
+              />
+</div>,
+          ],
+          "className": "personal-bar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "createNewProject": [Function],
+              "currentProjectIndex": 0,
+              "projects": Array [],
+              "selectProject": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                  test
+</span>,
+                <button
+                  className="personal-bar__button"
+                  onClick={[Function]}
+>
+                  Delete
+</button>,
+              ],
+              "className": "personal-bar__ext-name",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "test",
+                },
+                "ref": null,
+                "rendered": "test",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Delete",
+                  "className": "personal-bar__button",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Delete",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(UserDropdownComponent)
+                session={
+                                Object {
+                                                "authToken": "test",
+                                                "displayName": "test",
+                                                "id": "test",
+                                                "login": "test",
+                                                "profileImageUrl": "test.png",
+                                              }
+                }
+/>,
+              "className": "top-nav-item__login",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "session": Object {
+                  "authToken": "test",
+                  "displayName": "test",
+                  "id": "test",
+                  "login": "test",
+                  "profileImageUrl": "test.png",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="top-nav-item__selected"
+              aria-current="page"
+              className="offset top-nav-item"
+              exact={true}
+              to="/"
+>
+              Project Overview
+</NavLink>,
+            <NavLink
+              activeClassName="top-nav-item__selected"
+              aria-current="page"
+              className="offset top-nav-item"
+              exact={true}
+              to="/extension-views"
+>
+              Extension Views
+</NavLink>,
+            <NavLink
+              activeClassName="top-nav-item__selected"
+              aria-current="page"
+              className="offset top-nav-item"
+              exact={true}
+              to="/product-management"
+>
+              Manage Bits Products
+</NavLink>,
+            <NavLink
+              activeClassName="top-nav-item__selected"
+              aria-current="page"
+              className="offset top-nav-item top-nav-item__disabled"
+              exact={true}
+              to="/configuration-service"
+>
+              Configuration Service
+</NavLink>,
+          ],
+          "className": "top-nav__item-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "top-nav-item__selected",
+              "aria-current": "page",
+              "children": "Project Overview",
+              "className": "offset top-nav-item",
+              "exact": true,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Project Overview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "top-nav-item__selected",
+              "aria-current": "page",
+              "children": "Extension Views",
+              "className": "offset top-nav-item",
+              "exact": true,
+              "to": "/extension-views",
+            },
+            "ref": null,
+            "rendered": "Extension Views",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "top-nav-item__selected",
+              "aria-current": "page",
+              "children": "Manage Bits Products",
+              "className": "offset top-nav-item",
+              "exact": true,
+              "to": "/product-management",
+            },
+            "ref": null,
+            "rendered": "Manage Bits Products",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "top-nav-item__selected",
+              "aria-current": "page",
+              "children": "Configuration Service",
+              "className": "offset top-nav-item top-nav-item__disabled",
+              "exact": true,
+              "to": "/configuration-service",
+            },
+            "ref": null,
+            "rendered": "Configuration Service",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="personal-bar"
+>
+            <ProjectDropdown
+                        createNewProject={[Function]}
+                        currentProjectIndex={0}
+                        projects={Array []}
+                        selectProject={[Function]}
+            />
+            <div
+                        className="personal-bar__ext-name"
+            >
+                        <span>
+                                    test
+                        </span>
+                        <button
+                                    className="personal-bar__button"
+                                    onClick={[Function]}
+                        >
+                                    Delete
+                        </button>
+            </div>
+            <div
+                        className="top-nav-item__login"
+            >
+                        <Connect(UserDropdownComponent)
+                                    session={
+                                                Object {
+                                                            "authToken": "test",
+                                                            "displayName": "test",
+                                                            "id": "test",
+                                                            "login": "test",
+                                                            "profileImageUrl": "test.png",
+                                                          }
+                                    }
+                        />
+            </div>
+</div>,
+          <div
+            className="top-nav__item-container"
+>
+            <NavLink
+                        activeClassName="top-nav-item__selected"
+                        aria-current="page"
+                        className="offset top-nav-item"
+                        exact={true}
+                        to="/"
+            >
+                        Project Overview
+            </NavLink>
+            <NavLink
+                        activeClassName="top-nav-item__selected"
+                        aria-current="page"
+                        className="offset top-nav-item"
+                        exact={true}
+                        to="/extension-views"
+            >
+                        Extension Views
+            </NavLink>
+            <NavLink
+                        activeClassName="top-nav-item__selected"
+                        aria-current="page"
+                        className="offset top-nav-item"
+                        exact={true}
+                        to="/product-management"
+            >
+                        Manage Bits Products
+            </NavLink>
+            <NavLink
+                        activeClassName="top-nav-item__selected"
+                        aria-current="page"
+                        className="offset top-nav-item top-nav-item__disabled"
+                        exact={true}
+                        to="/configuration-service"
+            >
+                        Configuration Service
+            </NavLink>
+</div>,
+        ],
+        "className": "top-nav",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ProjectDropdown
+                createNewProject={[Function]}
+                currentProjectIndex={0}
+                projects={Array []}
+                selectProject={[Function]}
+/>,
+              <div
+                className="personal-bar__ext-name"
+>
+                <span>
+                                test
+                </span>
+                <button
+                                className="personal-bar__button"
+                                onClick={[Function]}
+                >
+                                Delete
+                </button>
+</div>,
+              <div
+                className="top-nav-item__login"
+>
+                <Connect(UserDropdownComponent)
+                                session={
+                                                Object {
+                                                                "authToken": "test",
+                                                                "displayName": "test",
+                                                                "id": "test",
+                                                                "login": "test",
+                                                                "profileImageUrl": "test.png",
+                                                              }
+                                }
+                />
+</div>,
+            ],
+            "className": "personal-bar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "createNewProject": [Function],
+                "currentProjectIndex": 0,
+                "projects": Array [],
+                "selectProject": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span>
+                    test
+</span>,
+                  <button
+                    className="personal-bar__button"
+                    onClick={[Function]}
+>
+                    Delete
+</button>,
+                ],
+                "className": "personal-bar__ext-name",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "test",
+                  },
+                  "ref": null,
+                  "rendered": "test",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Delete",
+                    "className": "personal-bar__button",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Delete",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(UserDropdownComponent)
+                  session={
+                                    Object {
+                                                      "authToken": "test",
+                                                      "displayName": "test",
+                                                      "id": "test",
+                                                      "login": "test",
+                                                      "profileImageUrl": "test.png",
+                                                    }
+                  }
+/>,
+                "className": "top-nav-item__login",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "session": Object {
+                    "authToken": "test",
+                    "displayName": "test",
+                    "id": "test",
+                    "login": "test",
+                    "profileImageUrl": "test.png",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavLink
+                activeClassName="top-nav-item__selected"
+                aria-current="page"
+                className="offset top-nav-item"
+                exact={true}
+                to="/"
+>
+                Project Overview
+</NavLink>,
+              <NavLink
+                activeClassName="top-nav-item__selected"
+                aria-current="page"
+                className="offset top-nav-item"
+                exact={true}
+                to="/extension-views"
+>
+                Extension Views
+</NavLink>,
+              <NavLink
+                activeClassName="top-nav-item__selected"
+                aria-current="page"
+                className="offset top-nav-item"
+                exact={true}
+                to="/product-management"
+>
+                Manage Bits Products
+</NavLink>,
+              <NavLink
+                activeClassName="top-nav-item__selected"
+                aria-current="page"
+                className="offset top-nav-item top-nav-item__disabled"
+                exact={true}
+                to="/configuration-service"
+>
+                Configuration Service
+</NavLink>,
+            ],
+            "className": "top-nav__item-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "top-nav-item__selected",
+                "aria-current": "page",
+                "children": "Project Overview",
+                "className": "offset top-nav-item",
+                "exact": true,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Project Overview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "top-nav-item__selected",
+                "aria-current": "page",
+                "children": "Extension Views",
+                "className": "offset top-nav-item",
+                "exact": true,
+                "to": "/extension-views",
+              },
+              "ref": null,
+              "rendered": "Extension Views",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "top-nav-item__selected",
+                "aria-current": "page",
+                "children": "Manage Bits Products",
+                "className": "offset top-nav-item",
+                "exact": true,
+                "to": "/product-management",
+              },
+              "ref": null,
+              "rendered": "Manage Bits Products",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "top-nav-item__selected",
+                "aria-current": "page",
+                "children": "Configuration Service",
+                "className": "offset top-nav-item top-nav-item__disabled",
+                "exact": true,
+                "to": "/configuration-service",
+              },
+              "ref": null,
+              "rendered": "Configuration Service",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

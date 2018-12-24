@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check the platform.
+if [ "$(uname)" != "Darwin" ]; then
+	echo "This script is for Mac only."
+	exit 1
+fi
+
+# Ensure the configuration is up to date.
+cd "$(dirname "$0")/.."
+[ .configured -nt package.json ] || yarn install
+if [ $? -ne 0 ]; then
+	echo -e "\033[0;31mconfiguration update failed\033[0m"
+	exit 1
+fi
+touch .configured
+
+# Start the Developer Rig.
+yarn start

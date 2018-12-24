@@ -1,0 +1,43 @@
+$dimension: 70px
+$offset: $dimension / 2 - 4
+
+.div-option
+  display: inline-block
+  margin: 3px
+
+  &__label
+    cursor: pointer
+    display: block
+
+  &__input
+    margin-left: $offset
+    margin-top: $offset
+    position: absolute
+    transform: scale(0.1, 0.1)
+
+  &__box
+    border: 1px solid #DAD8DE
+    border-radius: 5px
+    display: table-cell
+    height: $dimension
+    vertical-align: middle
+    width: $dimension
+
+    &--selected
+      border-color: #7D55C7
+
+  &__image
+    display: block
+    margin: 0 auto
+    position: relative
+
+  &__text
+    color: #706A7C
+    display: block
+    font-size: 10px
+    margin-top: 3px
+    text-align: center
+    width: $dimension
+
+    &--selected
+      color: black
